@@ -6,7 +6,7 @@ Bienvenue dans le projet Todo List construit avec React et qui utilise le local 
 
 ---
 
-## Instalation
+## Installation
 
 Avant toute chose, assurez-vous d'avoir [Node Js](https://nodejs.org/en) d'installé sur votre machine.
 
