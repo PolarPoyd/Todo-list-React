@@ -1,18 +1,18 @@
 ## Getting Started
 
-Avant toute chose, assurez-vous d'avoir [Node Js](https://nodejs.org/en) d'installer sur votre machine.
+Avant toute chose, assurez-vous d'avoir [Node Js](https://nodejs.org/en) d'installé sur votre machine.
 
-Dans votre terminal intégré au projet commencer par utiliser cette commande :
+Dans votre terminal intégré au projet commencez par utiliser cette commande :
 ```bash
 npm install
 ```
-Ensuite, utiliser cette commande :
+Ensuite, utilisez cette commande :
 ```bash
 npm run dev
 ```
 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat.
 
 
 ## Learn More
