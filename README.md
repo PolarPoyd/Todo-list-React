@@ -1,6 +1,6 @@
 ## Getting Started
 
-Avant toute chose, assurez-vous d'avoir Node Js d'installer sur votre machine.
+Avant toute chose, assurez-vous d'avoir Node Js(https://nodejs.org/en) d'installer sur votre machine.
 
 Dans votre terminal intégré au projet commencer par utiliser cette commande :
 ```bash
