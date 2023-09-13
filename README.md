@@ -1,6 +1,7 @@
 # Todo list - React
 
 Hello World!
+
 Bienvenue dans le projet Todo List construit avec React et qui utilise le local storage pour la persistance des données.
 
 ---
@@ -25,5 +26,6 @@ Ouvrez [http://localhost:3000](http://localhost:3000) avec votre navigateur pour
 ## Informations
 
 N'hésitez pas à me contacter si vous avez le moindre problème pour run le projet.
+
 Reina
 Adriano
