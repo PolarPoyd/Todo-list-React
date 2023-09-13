@@ -12,12 +12,20 @@ interface Props {
 
 // Composant TaskInput pour l'ajout et la modification de tâches
 const TaskInput: React.FC<Props> = ({ onAdd, isEditing, inputValue, setInputValue }) => {
+  
+  const handleKeyUp = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      onAdd(inputValue);  // Ajouter ou modifier la tâche si la touche Entrée est appuyée
+    }
+  };
+
   return (
     <div className="mb-4 transition-all ease-in-out duration-300">
         <input
             className="border p-2 w-full rounded-md shadow-sm transition-all ease-in-out duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)} // Met à jour la valeur de l'input à chaque changement
+            onKeyUp={handleKeyUp} // Ajouté ici
             placeholder="Ajoutez une nouvelle tâche"
         />
         <button
